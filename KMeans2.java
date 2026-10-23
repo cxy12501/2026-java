@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
+
+import kmeans.Cluster;
+import kmeans.Point;
 public class KMeans2 {
     private int k;
     private int maxItreations;
@@ -54,3 +57,4 @@ public class KMeans2 {
         return clusters;
     }
 }
+ 

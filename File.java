@@ -4,6 +4,9 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import kmeans.Cluster;
+import kmeans.Point;
 class PointFileReader{
     private String filePath;
     public PointFileReader(String filePath){

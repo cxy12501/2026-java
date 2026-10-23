@@ -1,8 +1,12 @@
+package kmeans;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 class Kmeans {
+    public Kmeans(int i, int j, double d) {
+        //TODO Auto-generated constructor stub
+    }
     public static double distance(double[] p1,double[] p2){
         double sum=0.0;
         for(int d=0;d<p1.length;d++){
@@ -107,6 +111,10 @@ class Kmeans {
             writer.println("簇大小:"+ count +"个点\n");
         }
         writer.close();
+    }
+    public List<Cluster> fit(List<Point> points) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fit'");
     }
 }
 class KMeansTeachingDemo{
