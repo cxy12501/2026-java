@@ -1,0 +1,13 @@
+======K-Means 面向对象聚类分析报表======
+簇#0|点数:3
+质点:(1.000,1.100)
+ kmean.Point@6ce253f1
+ kmean.Point@53d8d10a
+ kmean.Point@e9e54c2
+
+簇#1|点数:3
+质点:(5.067,5.000)
+ kmean.Point@65ab7765
+ kmean.Point@1b28cdfa
+ kmean.Point@eed1f14
+
